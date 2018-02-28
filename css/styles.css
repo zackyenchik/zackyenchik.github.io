@@ -1,0 +1,21 @@
+.flex-container {
+	display: inline-flex;
+	width: 100%;
+    flex-direction: column;
+}
+
+.flex-container > div {
+	background-color: LightSlateGray;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+body {
+	background-color: lightblue;
+}

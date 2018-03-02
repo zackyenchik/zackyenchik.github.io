@@ -11,6 +11,10 @@
 	font-size: 30px;
 }
 
+.flex-container > div:hover {
+	background-color: DimGray;
+}
+
 h1 {
 	color: black;
 	text-align: center;

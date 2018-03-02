@@ -6,13 +6,14 @@
 
 .flex-container > div {
 	background-color: LightSlateGray;
+	transition: background-color 0.2s ease;
 	margin: 20px;
 	padding: 20px;
 	font-size: 30px;
 }
 
 .flex-container > div:hover {
-	background-color: DimGray;
+	background-color: Gray;
 }
 
 h1 {

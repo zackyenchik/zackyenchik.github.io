@@ -13,7 +13,8 @@
 }
 
 .flex-container > div:hover {
-	background-color: Gray;
+	background-color: #006990;
+	cursor: pointer;
 }
 
 h1 {

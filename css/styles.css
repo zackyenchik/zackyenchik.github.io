@@ -1,57 +1,59 @@
 
 body {
-		font-family: Georgia;
-	  background-color: rgb(48, 49, 49);
-  }
+	font-family: Georgia;
+	background-color: rgb(48, 49, 49);
+}
   
-  .menu-container {
-		overflow: hidden;
-	  display: inline-flex;
-	  width: 100%;
-	  flex-direction: row;
-	  background-color: rgb(75, 77, 80);
-  }
+.menu-container {
+	overflow: hidden;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	background-color: rgb(75, 77, 80);
+}
   
-  .menu-container > div {
-	  font-size: 30px;
-	  color: #fff;
-	  text-align: center;
-		margin-top: 12px;
-	  flex-grow: 3;
-  }
+.menu-container > div {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	margin-top: 12px;
+	flex-grow: 3;
+}
   
-  .menu-container > button {
-		font-family: Georgia;
-		padding: 15px 25px;
-	  font-size: 24px;
-	  cursor: pointer;
-	  text-align: center;
-	  text-decoration: none;
-		outline: none;
-		border: 1px black;
-	  background-color: rgb(75, 77, 80);
-	  color: #fff;
+.menu-container > button {
+	font-family: Georgia;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	border: 1px black;
+	background-color: rgb(75, 77, 80);
+	color: #fff;
   
-  }
+}
   
-  .menu-container > button:hover {
-	  background-color: #272727;
-		transition: ease 0.3s;
-	}
+.menu-container > button:hover {
+	background-color: #272727;
+	transition: ease 0.3s;
+}
 	
-	.about-me-container {
-		display: inline-flex;
-		width: 100%;
-		margin-top: 50px;
-		color: #fff;
-		justify-content: left;
-	}
+.about-me-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 50px;
+	color: #fff;
+	justify-content: left;
+}
 	
-	.about-me-container > h1 {
-		color: #fff;
-	}
+.about-me-container > h1 {
+	color: #fff;
+}
 
-	.about-me-container > p {
-		font-size: 18px;
-		color: #fff;
-	}
+.about-me-container > p {
+	font-size: 18px;
+	margin-left: 20px;
+	color: #fff;
+}

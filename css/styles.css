@@ -57,3 +57,22 @@ body {
 	margin-left: 20px;
 	color: #fff;
 }
+
+.skills-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 50px;
+	color: #fff;
+	justify-content: left;
+}
+
+.skills-container > h1 {
+	margin-bottom: 0px;
+}
+
+.skills-container > ul > li {
+	font-size: 18px;
+	margin-top: 20px;
+	color: #fff;
+}

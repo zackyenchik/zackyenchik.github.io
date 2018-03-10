@@ -1,43 +1,40 @@
 
 body {
-	background-color: rgb(48, 49, 49);
-}
-
-.menu-container {
-	display: inline-flex;
-	width: 100%;
-	flex-direction: row;
-	background-color: rgb(75, 77, 80);
-}
-
-.menu-container > div {
-	font-size: 24px;
-	color: #fff;
-	text-align: left;
-	vertical-align: center;
-	flex-grow: 3;
-}
-
-.menu-container > button {
-	margin: 5px;
-	padding: 15px 25px;
-	font-size: 24px;
-	cursor: pointer;
-	text-align: center;
-	text-decoration: none;
-	outline: 1px #202020;
-	background-color: rgb(75, 77, 80);
-	color: #fff;
-	border-radius: 15px;
-	box-shadow: 0 8px #202020;
-}
-
-.menu-container > button:hover {
-	background-color: #272727;
-}
-
-.menu-container > button:active {
-	box-shadow: 0 5px #141414;
-	border: 1px #141414;
-	transform: translateY(4px);
-}
+	font-family: Georgia;
+	  background-color: rgb(48, 49, 49);
+  }
+  
+  .menu-container {
+	overflow: hidden;
+	  display: inline-flex;
+	  width: 100%;
+	  flex-direction: row;
+	  background-color: rgb(75, 77, 80);
+  }
+  
+  .menu-container > div {
+	  font-size: 30px;
+	  color: #fff;
+	  text-align: center;
+	margin-top: 12px;
+	  flex-grow: 3;
+  }
+  
+  .menu-container > button {
+	font-family: Georgia;
+	  padding: 15px 25px;
+	  font-size: 24px;
+	  cursor: pointer;
+	  text-align: center;
+	  text-decoration: none;
+	outline: none;
+	border: 1px black;
+	  background-color: rgb(75, 77, 80);
+	  color: #fff;
+  
+  }
+  
+  .menu-container > button:hover {
+	  background-color: #272727;
+	transition: ease 0.3s;
+  }

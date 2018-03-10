@@ -17,7 +17,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	outline: none;
-	background-color: #778899;
+	background-color: #D3D3D3;
 	color: #fff;
 	border: none;
 	border-radius: 15px;
@@ -25,10 +25,10 @@ body {
 }
 
 .button:hover {
-	background-color: #00008B;
+	background-color: #778899;
 }
 
 .button:active {
 	box-shadow: 0 5px #696969;
-	transform: translteY(5px);
+	transform: translateY(4px);
 }

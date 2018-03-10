@@ -1,20 +1,16 @@
 
-h1 {
-	color: #fff;
-	background-color: rgb(75, 77, 80);
-	margin: 0px;
-	height: 45px;
-	width: 45%;
-	text-align: left;
-	display: inline-block;
-}
-
 body {
 	background-color: rgb(48, 49, 49);
 }
 
-.button {
-	display: inline-block;
+.menu-container {
+	display: inline-flex;
+	width: 100%;
+	flex-direction: row;
+	background-color: rgb(75, 77, 80);
+}
+
+.menu-container > button {
 	margin-top: 0px;
 	padding: 15px 25px;
 	font-size: 24px;
@@ -29,11 +25,11 @@ body {
 	box-shadow: 0 8px #202020;
 }
 
-.button:hover {
+.menu-container > button:hover {
 	background-color: #272727;
 }
 
-.button:active {
+.menu-container > button:active {
 	box-shadow: 0 5px #141414;
 	transform: translateY(4px);
 }

@@ -37,4 +37,16 @@ body {
   .menu-container > button:hover {
 	  background-color: #272727;
 	transition: ease 0.3s;
-  }
+	}
+	
+	.about-me-container {
+		display: inline-flex;
+		width: 100%;
+		margin-top: 50px;
+		color: #fff;
+		justify-content: left;
+	}
+	
+	.about-me-container > h1 {
+		color: #fff;
+	}

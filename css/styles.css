@@ -9,14 +9,17 @@ body {
 }
 
 .button {
-	display: inline-block;
+	display: block;
 	margin: 30px;
 	padding: 15px 25px;
 	font-size: 24px;
 	cursor: pointer;
 	text-align: center;
+	text-decoration: none;
+	outline: none;
 	background-color: #778899;
 	color: #fff;
+	border: none;
 	border-radius: 15px;
 	box-shadow: 0 8px #808080;
 }
@@ -27,5 +30,5 @@ body {
 
 .button:active {
 	box-shadow: 0 5px #696969;
-	transform: translteY(3px);
+	transform: translteY(5px);
 }

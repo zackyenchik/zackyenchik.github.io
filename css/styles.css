@@ -1,37 +1,39 @@
 
 h1 {
-	color: hsl(209, 12%, 39%);
-	background-color: #99A6B2;
+	color: #fff;
+	background-color: rgb(75, 77, 80);
 	margin: 0px;
-	width: 40%;
+	height: 15px;
+	width: 50%;
 	text-align: left;
 	display: inline-block;
 }
 
 body {
-	background-color: lightblue;
+	background-color: rgb(48, 49, 49);
 }
 
 .button {
 	display: inline-block;
+	margin-top: 0px;
 	padding: 15px 25px;
 	font-size: 24px;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
 	outline: none;
-	background-color: #99A6B2;
+	background-color: rgb(75, 77, 80);
 	color: #fff;
 	border: none;
 	border-radius: 15px;
-	box-shadow: 0 8px #808080;
+	box-shadow: 0 8px #202020;
 }
 
 .button:hover {
-	background-color: #778899;
+	background-color: #272727;
 }
 
 .button:active {
-	box-shadow: 0 5px #696969;
+	box-shadow: 0 5px #141414;
 	transform: translateY(4px);
 }

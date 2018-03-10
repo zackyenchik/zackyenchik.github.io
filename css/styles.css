@@ -27,7 +27,7 @@ body {
 	outline: none;
 	background-color: rgb(75, 77, 80);
 	color: #fff;
-	border: none;
+	border: 1px #202020;
 	border-radius: 15px;
 	box-shadow: 0 8px #202020;
 }
@@ -38,5 +38,6 @@ body {
 
 .menu-container > button:active {
 	box-shadow: 0 5px #141414;
+	border: 1px #141414;
 	transform: translateY(4px);
 }

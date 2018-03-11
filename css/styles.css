@@ -48,7 +48,7 @@ body > h1 {
 .section-container {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 50%;
 	color: #fff;
 	justify-content: left;
 }
@@ -63,9 +63,4 @@ body > h1 {
 	font-size: 18px;
 	margin-top: 20px;
 	color: #fff;
-}
-
-.section-container > img {
-	border-radius: 8px;
-	max-width: 40%;
 }

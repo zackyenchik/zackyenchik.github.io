@@ -49,7 +49,7 @@ body > h1 {
 .section-container {
 	display: flex;
 	flex-direction: row;
-	width: 50%;
+	max-width: 100%;
 	color: #fff;
 	justify-content: left;
 }

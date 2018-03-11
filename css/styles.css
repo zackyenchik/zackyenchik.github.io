@@ -2,6 +2,12 @@
 body {
 	font-family: Georgia;
 	background-color: rgb(48, 49, 49);
+	display: flex;
+	flex-direction: column;
+}
+
+body > h1 {
+	color: #fff;
 }
   
 .menu-container {
@@ -39,39 +45,21 @@ body {
 	transition: ease 0.3s;
 }
 	
-.about-me-container {
+.section-container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	width: 100%;
-	margin-top: 50px;
 	color: #fff;
 	justify-content: left;
 }
-	
-.about-me-container > h1 {
-	color: #fff;
-}
 
-.about-me-container > p {
+.section-container > p {
 	font-size: 18px;
 	margin-left: 20px;
 	color: #fff;
 }
 
-.skills-container {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	margin-top: 50px;
-	color: #fff;
-	justify-content: left;
-}
-
-.skills-container > h1 {
-	margin-bottom: 0px;
-}
-
-.skills-container > ul > li {
+.section-container > ul > li {
 	font-size: 18px;
 	margin-top: 20px;
 	color: #fff;

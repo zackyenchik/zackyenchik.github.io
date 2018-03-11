@@ -64,3 +64,9 @@ body > h1 {
 	margin-top: 20px;
 	color: #fff;
 }
+
+.section-container > img {
+	border-radius: 8 px;
+	width: 50px;
+	height: 100px;
+}

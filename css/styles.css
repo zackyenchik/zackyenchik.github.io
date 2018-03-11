@@ -66,6 +66,6 @@ body > h1 {
 }
 
 .section-container > img {
+	border-radius: 8px;
 	max-width: 40%;
-	max-height: 80%;
 }

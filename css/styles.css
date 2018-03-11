@@ -8,6 +8,7 @@ body {
 
 body > h1 {
 	color: #fff;
+	margin-top: 20px;
 }
   
 .menu-container {
@@ -52,6 +53,10 @@ body > h1 {
 	color: #fff;
 	justify-content: left;
 }
+
+.section-container > h2 {
+	margin-left: 25px;
+  }
 
 .section-container > p {
 	font-size: 18px;

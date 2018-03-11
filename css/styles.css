@@ -10,6 +10,11 @@ body > h1 {
 	color: #fff;
 	margin-top: 20px;
 }
+
+body > h2 {
+	color: #fff;
+	margin-left: 20px;
+  }
   
 .menu-container {
 	overflow: hidden;
@@ -53,10 +58,6 @@ body > h1 {
 	color: #fff;
 	justify-content: left;
 }
-
-.section-container > h2 {
-	margin-left: 25px;
-  }
 
 .section-container > p {
 	font-size: 18px;

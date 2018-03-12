@@ -60,6 +60,7 @@ body > h2 {
 }
 
 .section-container > p {
+	max-width: 60%;
 	font-size: 18px;
 	margin-left: 20px;
 	color: #fff;
@@ -69,4 +70,8 @@ body > h2 {
 	font-size: 18px;
 	margin-top: 20px;
 	color: #fff;
+}
+
+#project-paragraph {
+	margin-left: 50px;
 }

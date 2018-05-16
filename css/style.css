@@ -7,13 +7,13 @@ body {
 }
 
 h3 {
-  margin-bottom: 1vh;
+	margin-bottom: 1vh;
 }
 
 p {
 	font-size: 20px;
 	text-align: left;
-  margin-top: 0vh;
+	margin-top: 0vh;
 }
 
 ul {
@@ -24,20 +24,21 @@ ul {
 
 ul > li {
 	margin-top: 1vh;
+    text-align: left;
 }
 
 h4 {
-  text-align: left;
-  margin-top: 0vh;
-  margin-bottom: 1vh;
+    text-align: left;
+    margin-top: 0vh;
+    margin-bottom: 1vh;
 }
 
 a {
-  color: #808080;
+    color: #808080;
 }
 
 a:hover {
-  color: #606060;
+    color: #606060;
 }
 
 .container {
@@ -66,8 +67,8 @@ a:hover {
 }
 
 .container > .row1 > .leftcolumn {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 	width: 33.333%;
 	margin-left: 2vw;
 }
@@ -80,7 +81,7 @@ a:hover {
 	height: auto;
 }
 
-.container > .row1 > .skills {
+.container > .row1 > .rightcolumn {
 	width: 33.333%;
 	margin-right: 2vw;
 }
@@ -114,7 +115,7 @@ a:hover {
 		width: 60%;
 	}
 
-	.container > .row1 > .skills {
+	.container > .row1 > .rightcolumn {
 		width: 80%;
 	}
 }

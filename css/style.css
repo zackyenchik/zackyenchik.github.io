@@ -1,4 +1,3 @@
-
 body {
 	font-family: Georgia;
 	background-color: #1d1f21;
@@ -7,9 +6,14 @@ body {
 	flex-direction: row;
 }
 
+h3 {
+  margin-bottom: 1vh;
+}
+
 p {
 	font-size: 20px;
 	text-align: left;
+  margin-top: 0vh;
 }
 
 ul {
@@ -20,6 +24,20 @@ ul {
 
 ul > li {
 	margin-top: 1vh;
+}
+
+h4 {
+  text-align: left;
+  margin-top: 0vh;
+  margin-bottom: 1vh;
+}
+
+a {
+  color: #808080;
+}
+
+a:hover {
+  color: #606060;
 }
 
 .container {
@@ -47,7 +65,9 @@ ul > li {
 	flex-direction: row;
 }
 
-.container > .row1 > .aboutme {
+.container > .row1 > .leftcolumn {
+  display: flex;
+  flex-direction: column;
 	width: 33.333%;
 	margin-left: 2vw;
 }
@@ -86,7 +106,7 @@ ul > li {
 		flex-direction: column;
 	}
 
-	.container > .row1 > .aboutme {
+	.container > .row1 > .leftcolumn {
 		width: 80%;
 	}
 

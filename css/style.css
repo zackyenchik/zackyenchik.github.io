@@ -87,35 +87,31 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-	.container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-		overflow: hidden;
-		margin-top: 10vh;
-		background-color: #242628;
-		border-style: solid;
-		border-color: #0f1011;
-		color: #fff;
-		font-size: 30px;
-		width: 100%;
-	}
-
-	.container > .row1 {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.container > .row1 > .leftcolumn {
-		width: 80%;
-	}
-
-	.container > .row1 > .picture {
-		width: 60%;
-	}
-
-	.container > .row1 > .rightcolumn {
-		width: 80%;
-	}
+  .container {
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  p, h4 {
+    margin-left: 2vw;
+  }
+  
+  .container > .row1 {
+    flex-direction: column;
+  }
+  
+  .container > .row1 > .leftcolumn {
+    width: 100%;
+    margin-left: 0vw;
+  }
+  
+  .container > .row1 > .rightcolumn {
+    width: 100%;
+    margin-right: 0vw;
+  }
+  
+  .container > .row1 > .picture {
+    display: none;
+  }
 }

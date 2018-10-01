@@ -1,8 +1,7 @@
 body {
-    background-color: #4c4c4c;
     font-family: 'Roboto', sans-serif;
 }
 
-.card {
-    background-color: #5d5d5d;
+.row {
+    margin-top: 20%;
 }

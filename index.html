@@ -15,22 +15,37 @@
 <body>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-1"></div>
-		<div class="col-sm-10">
-			<div class="card" style="width: 100%">
-				<div class="card-body">
-					<h4 class="card-title">Zack Yenchik</h4>
-					<p class="card-text">
-					    (Stay tuned, my site is currently being overhauled using Bootstrap)
-						I am a second year computer science student at Rochester Institute of Technology
-						currently seeking co-op/internship opportunities in the Spring, Summer, or Fall of
-						2019.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-1"></div>
-	</div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="card" style="width: 100%">
+        <div class="card-body">
+          <h2 class="card-title">Zack Yenchik</h2>
+          <p class="card-text">
+            I'm a second year computer science student at Rochester Institute of Technology
+            currently seeking co-op/internship opportunities in the Spring, Summer, or Fall
+            of 2019.
+          </p>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#Skills">
+                  My Skills
+                </a>
+              </div>
+              <div id="Skills" class="collapse show" data-parent="accordion">
+                <div class="card-body">
+                  Python, Java, C<br>
+                  HTML, CSS, JavaScript, React.js<br>
+                  Git, Linux, Bash
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
 </div>
 </body>
 

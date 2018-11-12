@@ -1,5 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #2D323D;
+    color: white;
+}
+
+.card {
+    background-color: #383C4A;
 }
 
 .row {
